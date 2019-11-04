@@ -1,0 +1,79 @@
+SMIT/19/PY/B2/06677
+PY06677
+JOHN
+BRAGANZA
+braganza.john@gmail.com
+
+1. Write a Python program to print the following string in a specific format (see the output).
+Code:
+line1 = "Twinkle, twinkle, little star,"
+line2 = "      How I wonder what you are!"
+line3 = "            Up above the world so high,"
+line4 = "            Like a diamond in the sky."
+print(line1)
+print(line2)
+print(line3)
+print(line4)
+print(line1)
+print(line2)
+
+Output:
+Twinkle, twinkle, little star,
+      How I wonder what you are!
+            Up above the world so high,
+            Like a diamond in the sky.
+Twinkle, twinkle, little star,
+      How I wonder what you are!
+
+2. Write a Python program to get the Python version you are using
+import sys;
+print("Py version");
+print (sys.version);
+
+Py version
+3.7.4 (default, Aug  9 2019, 18:34:13) [MSC v.1915 64 bit (AMD64)]
+
+3. Write a Python program to display the current date and time
+Code:
+import datetime;
+now = datetime.datetime.now();
+print ("Current date and time : ");
+print (now);
+
+Output:
+Current date and time : 
+2019-11-04 22:39:47.018343
+
+4. Write a Python program which accepts the radius of a circle from the user and compute the area
+Code:
+pipi = 3.14159;
+radi = float(input("Enter radius of circle : "));
+area = pipi * (radi**2);
+print ("The area is : ");
+print(area);
+
+Output:
+Enter radius of circle : 5.1
+The area is : 
+81.71275589999999
+
+5. Write a Python program which accepts the user's first and last name and print them in reverse order with a space between them.
+Code:
+firstName = input("First Name : ");
+lastName = input("Last Name : ");
+print(lastName + " " + firstName);
+
+Output:
+First Name : John
+Last Name : Braganza
+Braganza John
+
+6. Write a python program which takes two inputs from user and print them addition
+num1 = int(input("Enter number 1 : "));
+num2 = int(input("Enter number 2 : "));
+print(num1 + num2);
+
+Output:
+Enter number 1 : 5
+Enter number 2 : 7
+12
