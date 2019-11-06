@@ -1,0 +1,16 @@
+var a = 10;
+document.write("Result: <br> \n");
+document.write("The value of a is : " + a + " <br> \n");
+document.write("------------------------- <br> \n");
+document.write(" <br> \n");
+document.write("The value of ++a is : " + ++a + " <br> \n");
+document.write("Now the value of a is: " + a + " <br>  \n");
+document.write(" <br> \n");
+document.write("The value of a++ is : " + a++ + " <br> \n");
+document.write("Now the value of a is: " + a + " <br>  \n");
+document.write(" <br> \n");
+document.write("The value of --a is : " + --a + " <br> \n");
+document.write("Now the value of a is: " + a + " <br>  \n");
+document.write(" <br> \n");
+document.write("The value of a-- is : " + a-- + " <br> \n");
+document.write("Now the value of a is: " + a + " <br>  \n");
